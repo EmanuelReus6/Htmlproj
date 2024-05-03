@@ -1,0 +1,259 @@
+body {
+    background-color: black;
+    background-size: 1500px;
+}
+
+.CAB{
+    height:500px;
+    width:1000px;
+    margin-left: 13%;
+}
+
+#slide{
+    height: 100%;
+    width:  100%;
+}
+
+
+.SUBCAB{
+    background-color: black;
+    width: 1000px;
+    height:100px;
+    position: absolute;
+    margin-top: -500px;
+    box-shadow: 0 5px 15px 15px rgb(0, 0, 0);
+    
+
+}
+
+.SUBCAB2{
+    background-color: black;
+    width: 1000px;
+    height:100px;
+    position: absolute;
+    margin-top: 0px;
+    box-shadow: 0 5px 15px 15px rgb(0, 0, 0);
+    
+
+}
+
+.HISTORIA{
+    background-image:url("fundogen.jpeg");
+    background-repeat: repeat;
+    background-size: 500px;
+    height: 500px;
+    width: 1000px;
+    margin-left: 13%;
+}
+
+.CONTATOS{
+    background-image:url("fundogen.jpeg");
+    background-repeat: repeat;
+    background-size: 500px;
+    height: 700px;
+    width: 1000px;
+    margin-left: 13%;
+}
+
+.docon{
+    background-color: black;
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 22.5%;
+    box-shadow: 0 5px 15px 15px rgb(0, 0, 0);
+    text-align: center;
+}
+
+.MUSICAS{
+    background-image:url("fundogen.jpeg");
+    background-repeat: repeat;
+    background-size: 500px;
+    height: 600px;
+    width: 1000px;
+    margin-left: 13%;
+    border-radius: 10px;
+}
+
+.dival{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(226, 43, 43);
+    margin-top: 15%;
+    margin-left: 8%;
+    position: absolute;
+}
+
+.ALBUM{
+    height: 300px;
+    width: 300px;
+}
+
+.divli{
+    height: 500px;
+    width: 500px;
+    margin-top: 13%;
+    margin-left: 42%;
+    position: absolute;
+}
+
+.listinha{
+    display: block;
+    list-style: decimal;
+    font-size: 25px;
+}
+
+.logo{
+    width: 200px;
+    height: 90px;
+}
+
+.CAB2{
+    width: 1000px;
+    height: 100px;
+}
+
+.textoh{
+    color: white;
+    margin-left: 18%;
+}
+
+.MENU{
+    width: 700px;
+    list-style: none;
+    margin-left: 120px; 
+    margin-top: 40px;
+    font-size: 25px;
+    position: absolute;  
+    display: inline-flex;
+    margin-left: 20px;
+    background-color: transparent;
+}
+
+.MENU li{
+    width: 155px;
+    height: 30px;
+    background-color: black;
+    position:relative;
+    margin-left: 20px;
+    text-align: center;
+    border: 3px solid transparent;
+}
+
+.MENU li a{
+    text-decoration:none;
+    color: white;
+}
+
+.MENU li .SUBMENU{
+    display:none;  
+}
+
+.MENU li:hover .SUBMENU{
+    display: block;
+    
+}
+
+.MENU li:hover{
+    border: 3px solid rgb(243, 60, 60);
+    border-radius: 2%;
+    transition: 1s;
+    border-left-color: transparent; 
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+
+
+.SUBMENU{
+    list-style:none;
+    position: absolute;
+    left:-83%;
+    top: 100%;
+    
+}
+
+.SUBMENU li{
+    background-color: black;
+    box-shadow: 0 5px 15px 15px rgb(0, 0, 0);
+}
+
+.SUBMENU li:hover{
+    z-index: 1;
+}
+
+.SUBMENU li a{
+    font-size: 12px;
+
+}
+
+.h11{
+    color: white;
+}
+
+.form{
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.env{
+    margin-top: 100px;
+    margin-left: -245px;
+    position: absolute;
+    height: 30px;
+    width: 100px;
+}
+
+.limp{
+    margin-top: 100px;
+    margin-left: -125px;
+    position: absolute;
+    height: 30px;
+    width: 100px;
+}
+
+.GALE{
+    background-image:url("fundogen.jpeg");
+    background-repeat: repeat;
+    background-size: 500px;
+    height: 750px;
+    width: 1000px;
+    margin-left: 13%;
+    border-radius: 10px;   
+}
+
+.regular{
+    height: 800px;
+    width: 1000px;
+    position: absolute;
+    margin-top: 15%;
+}
+
+
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
+}
+
+.items{
+    width: 220px;
+    height: 220px;
+    flex-grow: 1;
+    filter: grayscale(100%);
+
+}
+
+.items:hover{
+    transform: scale(1.3);
+    filter: none;
+
+}
+
+.items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,50 @@
+<title>CONTATO</title>
+<script type = "text/javascript" src = "thecureJAVA.js"></script>
+<link rel="stylesheet" type="text/css" href="thecureSTYLE.css"> 
+</head>
+<div class="CONTATOS">
+    <div class="SUBCAB2">
+    <img src="logoteste2.png" class="logo">
+    <ul class="MENU">
+        <li><a href="thecureHOME.html">HOME</a></li>
+        <li><a href="HISTORICO.html">HISTÓRICO</a></li>
+        <li><a href="">ÁLBUNS</a>
+            <ul class="SUBMENU">
+                <li><a href="ALBUM1.html">THREE IMAGINARY BOYS</a></li>
+                <li><a href="ALBUM2.html">SEVENTEEN SECONDS</a></li>
+                <li><a href="ALBUM3.html">FAITH</a></li>
+                <li><a href="ALBUM4.html">PORNOGRAPHY</a></li>
+                <li><a href="ALBUM5.html">THE TOP</a></li>
+            </ul>
+        
+        </li>
+        <li><a href="GALERIA.html">GALERIA</a></li>
+        <li><a href="CONTATO.html">CONTATO</a></li>
+
+    </ul> 
+    </div>
+    <div class="docon">
+        <h1 class="h11">Informações de contato:</h1>
+        <form name="formulario" method="post" action="" class="form">
+            <input type="text" name="nome" id="nome" autocomplete="off" size="30" maxlength="50" placeholder="NOME" required class="form">
+            <input type="text" name="senha" id="senha" autocomplete="off" size="30" maxlength="90" placeholder="SENHA" required class="form">
+            <input type="text" name="email" id="email" size="30" maxlength="90" placeholder="EMAIL" required class="form">
+            <input type="text" name="telefone" id="telefone" autocomplete="off" size="30" maxlength="90" placeholder="TELEFONE" required class="form">
+            <input type="text" name="cpf" id="cpf" autocomplete="off" size="30" maxlength="14" placeholder="CPF" required class="form">
+            <input type="submit" name="enviar" id="enviar" value="ENVIAR" class="env">
+            <input type="reset" name="limpar" id="limpar" value="LIMPAR" class="limp">
+        </form>       
+    </div>
+    
+</div>   
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+
+<script>
+$('#cpf').mask('000.000.000-00', {reverse: false});
+$('#telefone').mask('(00) 0000-0000');
+</script>
+
+</body>
+</html>
